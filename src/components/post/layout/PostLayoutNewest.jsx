@@ -13,7 +13,7 @@ const PostLayoutNewest = ({ postSizeMd, postBgDark }) => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get("/api/Top5Newest");
+        const response = await axios.get(`/api/Top5Newest?t=${new Date().getTime()}`);
         setData(response.data);
       } catch (error) {
         console.error("Error fetching data:", error);
