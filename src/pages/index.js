@@ -14,13 +14,13 @@ const HomeOne = ({allPosts}) => {
  
   return ( 
     <>
-    <HeadMeta metaTitle="Home One"/>
-    <HeaderOne />
-    <PostSectionOne postData={allPosts} />
+    {/* <HeadMeta metaTitle="Home One"/> */}
+    {/* <HeaderOne /> */}
+    {/* <PostSectionOne postData={allPosts} /> */}
     <PostSectionTwo postData={allPosts} />
-    <PostSectionThree postData={allPosts} />
-    <PostSectionFive postData={allPosts} adBanner={true} />
-    <FooterOne />
+    {/* <PostSectionThree postData={allPosts} /> */}
+    {/* <PostSectionFive postData={allPosts} adBanner={true} /> */}
+    {/* <FooterOne /> */}
     <BackToTopButton />
 
     </>
